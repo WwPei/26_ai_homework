@@ -5,11 +5,11 @@ const app = express();
 app.use(cors());
 app.use(express.json({ limit: '50mb' }));
 
-const SEEDREAM_API_KEY = 'ark-9a977420-cc22-4733-a347-3fc95b7ea359-ab24f';
+const SEEDREAM_API_KEY = 'ark-9a977420-cc22-4733-a347-3fc95b7ea359-ab24f*';
 const SEEDREAM_BASE_URL = 'https://ark.cn-beijing.volces.com/api/v3/images/generations';
 const SEEDREAM_MODEL = 'doubao-seedream-4-0-250828'; // ⚠️ 开通后请确认此模型名称是否正确
 
-const DEEPSEEK_API_KEY = 'sk-a2ef1f2f1faf424c90e35562f65c6704';
+const DEEPSEEK_API_KEY = 'sk-a2ef1f2f1faf424c90e35562f65c6704*';
 const DEEPSEEK_BASE_URL = 'https://api.deepseek.com/v1/chat/completions';
 const DEEPSEEK_MODEL = 'deepseek-v4-flash';
 
